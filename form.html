@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>파일 업로드 테스트</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body bgcolor="#fffff" text="#000000">
+        <font size="4">파일 업로드 테스트</font>
+        `       <form name="form1" method="post" action="view.php" enctype="multipart/form-data">
+            <input type="hidden" name="MAX_FILE_SIZE" value="10000">
+            이미지:<input type="file" name="uploadfile"><br>
+            설명;<input type="file" name="comment"><br><br>
+            <input type="submit" value="파일 업로드">
+        </form>
+    </body>
+</html>
